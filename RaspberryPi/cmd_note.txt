@@ -1,0 +1,1 @@
+sudo chown -R -v pi /var/www/   => Add Permission on www directory for user Pi
