@@ -1,10 +1,12 @@
 var wpi 		= require('wiring-pi');
 var mqtt_packet = require('mqtt-packet')
 var mqtt    	= require('mqtt');
-var mqtt_client = mqtt.connect('tcp://*******.com',{
+var http    	= require('http-request');
+
+var mqtt_client = mqtt.connect('tcp://****.com',{
   port: ****,
-  username: '*******',
-  password: '*******'
+  username: '*********',
+  password: '*********'
 });
 
 mqtt_client.on('connect', function(){
