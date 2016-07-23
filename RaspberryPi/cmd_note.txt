@@ -1,1 +1,14 @@
 sudo chown -R -v pi /var/www/   => Add Permission on www directory for user Pi
+Installed softwares:
+- MQTT Broker
+- NodeJS
+- BCM2835 Lib
+- WiringPi
+- npm modules:
+	+ mqtt
+	+ wiring-pi
+	+ node-dht-sensor
+	+ express
+	+ http-request
+- Crontab
+- Apache + PHP server
