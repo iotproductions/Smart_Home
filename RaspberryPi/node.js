@@ -34,9 +34,9 @@ mqtt_client.on('message', function (topic, message)
 					console.log("Recevied Command !");
 					mqtt_client.publish("W/00/SENSORNODE001","Recevied Command !");
 					http.get({
-						url: 'http://rynanservices.16mb.com/api/control.php?id=status',
+						url: 'http://ttpservices.16mb.com/api/control.php?id=status',
 						proxy: {
-							host: 'rynanservices.16mb.com',
+							host: 'ttpservices.16mb.com',
 							port: 80
 						},
 						maxRedirects: 2
